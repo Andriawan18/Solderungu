@@ -1,5 +1,5 @@
 // Definisikan pin analog
-const int potPin = 14;  // Gunakan GPIO 14 untuk membaca potensiometer
+int potPin = 14;  // Gunakan GPIO 34 untuk membaca potensiometer
 
 void setup() {
   // Inisialisasi serial monitor untuk menampilkan data

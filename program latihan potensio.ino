@@ -1,5 +1,5 @@
 // Definisikan pin analog
-int potPin = 14;  // Gunakan GPIO 34 untuk membaca potensiometer
+int potPin = 14;  // Gunakan GPIO 14 untuk membaca potensiometer
 
 void setup() {
   // Inisialisasi serial monitor untuk menampilkan data
@@ -19,7 +19,6 @@ void loop() {
   Serial.print("\t Tegangan: ");
   Serial.print(voltage);
   Serial.println(" V");
-  
   // Tunggu sebentar sebelum membaca lagi
   delay(500);
 }
